@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 
 public class DTreePredictor {
 
-    static Logger logger = Logger.getLogger(RandomForestPredictor.class.getName());
+    static Logger logger = Logger.getLogger(DTreePredictor.class.getName());
     static PMML model = null;
     static ModelEvaluator<TreeModel> modelEvaluator;
 

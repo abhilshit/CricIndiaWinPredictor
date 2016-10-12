@@ -23,7 +23,7 @@ import java.util.logging.Logger;
  * Created by asoni on 10/11/16.
  */
 public class NeuralNetPredictor {
-    static Logger logger = Logger.getLogger(RandomForestPredictor.class.getName());
+    static Logger logger = Logger.getLogger(NeuralNetPredictor.class.getName());
     static PMML model = null;
     static NeuralNetworkEvaluator neuralNetEvaluator;
 
